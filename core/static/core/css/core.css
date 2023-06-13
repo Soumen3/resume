@@ -1,0 +1,63 @@
+/* Fonts  */
+.st-font{
+    font-family: 'Satisfy', cursive;
+    
+}
+
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    /* background-image: url("https://images.pexels.com/photos/6985132/pexels-photo-6985132.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    /* background:linear-gradient(to-diagonally); */
+    background-image: linear-gradient(45deg, red,rgb(72, 0, 255),rgb(245, 65, 239),rgb(218, 77, 17),blue,indigo,violet);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* min-height: 100vh; */
+}
+
+.container-fluid{
+    min-height: 100%;
+}
+
+/* Service icon color  */
+.i-color{
+    color: rgb(122, 167, 228);
+}
+
+/* Service subtitle color */
+.ss-color{
+    color: silver;
+}
+
+
+/* navbar effect */
+a.nav-link{
+    color: rgb(233, 228, 223);
+}
+
+a.nav-link:hover{
+    color:black;
+    background-color: rgb(228, 105, 16);
+}
+
+a.nav-link.active{
+    color:black;
+    background-color: rgb(230, 166, 120);
+    font-weight: bold;
+
+}
+
+
+/* hyperlink */
+a.anchore{
+    color: aliceblue;
+}
+
+
+/* send button
+.position:hover{
+    align-items: center;
+} */
